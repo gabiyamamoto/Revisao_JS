@@ -3,7 +3,7 @@ let charmanderEnergia = 80;
 
 let rodada = 1;
 
-while (pikachuEnergia > 0 && charmanderEnergia > 0 ) {
+while (pikachuEnergia > 0 && charmanderEnergia > 0) {
 
     console.log (``);
     
