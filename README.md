@@ -1,15 +1,15 @@
-# BATALHA POKÉMON: PIKACHU VS CHARMANDER
+# ⚔️ BATALHA POKÉMON: PIKACHU VS CHARMANDER
 
-Utilizando o conhecimento de programação em JavaScript adquirido no curso do Senai, realizamos esse script de simulação de combate entre os pokémons Pikachu e Charmander.
+Utilizando o conhecimento de programação em JavaScript adquirido no curso do Senai, realizamos esse script de simulação de combate entre os pokémons Pikachu ⚡e Charmander ⚡.
 
-# DESCRIÇÃO E REGRAS DO COMBATE
+# 📝 DESCRIÇÃO E REGRAS DO COMBATE
 
 A batalha acontece em rodadas, em que ambos pokémons começam com 80 pontos de energia (vida) e realizam ataques com danos aleatórios.
 Em cada rodada, o Pikachu lança um golpe com dano aleatório entre 10 e 25. Já o Charmander contra-ataca com um golpe de dano entre 8 e 22. Os resultados da rodada são exibidos no console.
 O combate só acaba quando a energia de um dos dois (ou ambos) chega a 0 ou menos.
 Ao fim da batalha, o pokémon vitorioso é exibido no console.
 
-# CÓDIGO
+# 💻 CÓDIGO
 
 ```javascript
 // Declaração das variaveis das vidas dos pokemons.
@@ -68,18 +68,18 @@ while (pikachuEnergia > 0 && charmanderEnergia > 0) {
 }
 
 /* Calcular e exibir o resultado da batalha.
-    Se a vida do Pikachu for maior que a do Charmander, a vitória é do Pikachu*/
+    Se a vida do Pikachu for maior que a do Charmander, a vitória é do Pikachu. */
 if (pikachuEnergia > charmanderEnergia) {
     console.log (`🏆 Pikachu venceu a batalha com um trovão final!`);
-    /* Se a vida do Charmander e a do Pikachu foram menores ou iguais a 0, houve um empate.*/
+    // Se a vida do Charmander e a do Pikachu foram menores ou iguais a 0, houve um empate.
 } else if (pikachuEnergia <= 0 && charmanderEnergia <= 0) {
     console.log (`😮 Empate! Os dois foram para o chão ao mesmo tempo!`);
-    /* Se a vida do Charmander for maior, ele ganhou a batalha*/
+    // Se a vida do Charmander for maior, ele ganhou a batalha.
 } else {
     console.log (`👑 Charmander alcançou a vitória com um golpe flamejante!`);
 }
 ```
 
-# AUTOR
+# 👩 AUTOR
 
 Gabriela Emi Yamamoto - 1TDS1
