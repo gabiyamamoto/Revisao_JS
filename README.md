@@ -71,10 +71,10 @@ while (pikachuEnergia > 0 && charmanderEnergia > 0) {
     Se a vida do Pikachu for maior que a do Charmander, a vitória é do Pikachu*/
 if (pikachuEnergia > charmanderEnergia) {
     console.log (`🏆 Pikachu venceu a batalha com um trovão final!`);
-    /* Se a vida do Charmander e a do Pikachu foram menores ou iguais a 0, houve um empate.*/
+    // Se a vida do Charmander e a do Pikachu foram menores ou iguais a 0, houve um empate.
 } else if (pikachuEnergia <= 0 && charmanderEnergia <= 0) {
     console.log (`😮 Empate! Os dois foram para o chão ao mesmo tempo!`);
-    /* Se a vida do Charmander for maior, ele ganhou a batalha*/
+    // Se a vida do Charmander for maior, ele ganhou a batalha
 } else {
     console.log (`👑 Charmander alcançou a vitória com um golpe flamejante!`);
 }
