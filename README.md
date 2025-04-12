@@ -1,4 +1,4 @@
-# ⚔️ BATALHA POKÉMON: PIKACHU VS CHARMANDER
+# ⚔️ BATALHA POKÉMON: PIKACHU 🆚 CHARMANDER
 
 Utilizando o conhecimento de programação em JavaScript adquirido no curso do Senai, realizamos esse script de simulação de combate entre os pokémons Pikachu ⚡e Charmander ⚡.
 
