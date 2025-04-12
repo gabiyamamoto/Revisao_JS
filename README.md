@@ -1,15 +1,15 @@
-# BATALHA POKÉMON: PIKACHU VS CHARMANDER
+# ⚔️ BATALHA POKÉMON: PIKACHU VS CHARMANDER
 
-Utilizando o conhecimento de programação em JavaScript adquirido no curso do Senai, realizamos esse script de simulação de combate entre os pokémons Pikachu e Charmander.
+Utilizando o conhecimento de programação em JavaScript adquirido no curso do Senai, realizamos esse script de simulação de combate entre os pokémons Pikachu ⚡e Charmander ⚡.
 
-# DESCRIÇÃO E REGRAS DO COMBATE
+# 📝 DESCRIÇÃO E REGRAS DO COMBATE
 
 A batalha acontece em rodadas, em que ambos pokémons começam com 80 pontos de energia (vida) e realizam ataques com danos aleatórios.
 Em cada rodada, o Pikachu lança um golpe com dano aleatório entre 10 e 25. Já o Charmander contra-ataca com um golpe de dano entre 8 e 22. Os resultados da rodada são exibidos no console.
 O combate só acaba quando a energia de um dos dois (ou ambos) chega a 0 ou menos.
 Ao fim da batalha, o pokémon vitorioso é exibido no console.
 
-# CÓDIGO
+# 💻 CÓDIGO
 
 ```javascript
 // Declaração das variaveis das vidas dos pokemons.
@@ -80,6 +80,6 @@ if (pikachuEnergia > charmanderEnergia) {
 }
 ```
 
-# AUTOR
+# 👩 AUTOR
 
 Gabriela Emi Yamamoto - 1TDS1
